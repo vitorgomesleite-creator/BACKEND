@@ -1,0 +1,4 @@
+@app.post("/logout")
+def logout():
+    # Em produção: invalidar token (lista negra, redis etc.)
+    return {"msg": "Logout realizado com sucesso"}
